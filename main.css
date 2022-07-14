@@ -2,14 +2,22 @@
     font-family: "Roboto", sans-serif;
 }
 
-.h1 {
+h1 {
     font-size: 48px;
     font-weight: 700;
 }
 
-.h2 {
+h2 {
     font-size: 18px;
     font-weight: 500;
+}
+
+button {
+    padding: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-top: 24px;
+    border-radius: 6px;
 }
 
 .topnav {
@@ -88,10 +96,6 @@
     gap: 48px;
 }
 
-.overview h1 {
-
-}
-
 .content-overview {
     display: flex;
     flex-direction: row;
@@ -134,3 +138,46 @@
 .quote-contents h2 {
     text-align: right;
 }
+.banner-container {
+    padding: 48px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    background-color: #3882f6;
+    padding: 48px;
+    border-radius: 12px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.banner p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+    max-width: 600px;
+}
+
+.banner button {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 48px;
+    background-color: #1f2937;
+    color: white;
+}
+
