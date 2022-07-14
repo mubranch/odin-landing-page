@@ -2,6 +2,16 @@
     font-family: "Roboto", sans-serif;
 }
 
+.h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
 .topnav {
     display: flex;
     align-items: center;
@@ -68,4 +78,36 @@
 .hero-image img {
     width: 640px;
     height: 360px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    gap: 48px;
+}
+
+.overview h1 {
+
+}
+
+.content-overview {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.glyph-content {
+    width: 240px;
+}
+
+.glyph-content p {
+    text-align: center;
+}
+
+.glyph-content img {
+    width: 240px;
+    height: 240px;
 }
