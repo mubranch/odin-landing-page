@@ -2,18 +2,10 @@
     font-family: "Roboto", sans-serif;
 }
 
-.hero {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
 .topnav {
     display: flex;
     align-items: center;
-
     padding: 20px;
-
     background-color: #1f2937;
     color: white;
 }
@@ -30,5 +22,50 @@
 
 .topnav-items a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 48px;
+    background-color: #1f2937;
+    gap: 48px;
+}
+
+.hero button {
+    padding: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-top: 24px;
+    border-radius: 6px;
+
+    background-color: #3882f6;
+    border: none;
     color: white;
+}
+
+.hero-copy {
+    flex-grow: 2;
+    max-width: 500px;
+}
+
+.hero-copy h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-copy h2 {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero-image img {
+    width: 640px;
+    height: 360px;
 }
