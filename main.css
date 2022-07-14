@@ -4,12 +4,12 @@
 
 .h1 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .h2 {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .topnav {
@@ -71,8 +71,7 @@
 
 .hero-copy h2 {
     color: #e5e7eb;
-    font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .hero-image img {
@@ -110,4 +109,28 @@
 .glyph-content img {
     width: 240px;
     height: 240px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 60px;
+    align-items: center;
+}
+
+.quote-contents {
+    text-align:center;
+    max-width: 800px;
+}
+
+.quote-contents p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-contents h2 {
+    text-align: right;
 }
