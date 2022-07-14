@@ -1,0 +1,34 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: #1f2937;
+    color: white;
+}
+
+.topnav-items {
+    display: flex;
+    gap: 20px;
+}
+
+.topnav-logo {
+    flex-grow: 2;
+    font-size: 24px;
+}
+
+.topnav-items a {
+    text-decoration: none;
+    color: white;
+}
